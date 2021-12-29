@@ -66,7 +66,7 @@ document.write("<div class='container'>");
 //Creación de Tablas con atenciones por especialidad
 
 //Tabla de Radiologia
-    document.write("<table class='table table-borderless mb-0 mt-2'>");
+    document.write("<table class='table table-borderless mb-0 mt-2' data-toggle='collapsa'>");
     document.write("<tr>");
     document.write("<td class='p-0'><h2></br>Atenciones Radiología</h2></td>");
     document.write("</tr>");
@@ -106,18 +106,18 @@ document.write("<div class='container'>");
     document.write("</table>");
     document.write("<table class='table table-hover'>");
     document.write("<table class='table table-hover'>");
-    //Cabecera Tabla radio
+    //Cabecera Tabla traumato
         document.write("<thead class='bg-dark text-light'>");
-    //Columnas Cabecera Tabla radio
+    //Columnas Cabecera Tabla traumato
         document.write("<tr>");
-        //Contenido Columnas Cabecera Tabla radio
+        //Contenido Columnas Cabecera Tabla traumato
             document.write("<th scope='col'>Hora</th>");
             document.write("<th scope='col' class='text-center'>Especialista</th>");
             document.write("<th scope='col' class='text-center'>Paciente</th>");
             document.write("<th scope='col' class='text-center' >RUT</th>");
             document.write("<th scope='col' class='text-center'>Previsión</th>");
-            document.write("</tr>"); //Cierro Columnas Cabecera Tabla radio
-            document.write("</thead>"); //Cierre Cabecera Tabla radio
+            document.write("</tr>"); //Cierro Columnas Cabecera Tabla traumato
+            document.write("</thead>"); //Cierre Cabecera Tabla traumato
 
             //Cuerpo Tabla atenciones trauma
             document.write("<tbody>");
@@ -140,18 +140,18 @@ document.write("<div class='container'>");
     document.write("</table>");
     document.write("<table class='table table-hover'>");
     document.write("<table class='table table-hover'>");
-    //Cabecera Tabla radio
+    //Cabecera Tabla dental
         document.write("<thead class='bg-dark text-light'>");
-    //Columnas Cabecera Tabla radio
+    //Columnas Cabecera Tabla dental
         document.write("<tr>");
-        //Contenido Columnas Cabecera Tabla radio
+        //Contenido Columnas Cabecera Tabla dental
             document.write("<th scope='col'>Hora</th>");
             document.write("<th scope='col' class='text-center'>Especialista</th>");
             document.write("<th scope='col' class='text-center'>Paciente</th>");
             document.write("<th scope='col' class='text-center' >RUT</th>");
             document.write("<th scope='col' class='text-center'>Previsión</th>");
-            document.write("</tr>"); //Cierro Columnas Cabecera Tabla radio
-            document.write("</thead>"); //Cierre Cabecera Tabla radio
+            document.write("</tr>"); //Cierro Columnas Cabecera Tabla dental
+            document.write("</thead>"); //Cierre Cabecera Tabla dental
 
             //Cuerpo Tabla atenciones dental
             document.write("<tbody>");
